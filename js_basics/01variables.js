@@ -10,6 +10,11 @@ username = "waris";
 useremail = "waris253@gmail.com";
 address = "jagdishpur Amethi";
 
+/*
+prefer not to use var 
+because of issue in block scope amd functional scope
+*/
+
 console.log(accountID);
 
 console.table([accountID , username , useremail , address]);
